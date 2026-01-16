@@ -1,12 +1,12 @@
 import { useState } from 'react'
-
+import About from './about/about'
 import './App.css'
 
 function App() {
 
   return (
     <>
-     <div className=' text-red-200'>hello</div>
+    <About> </About>
     </>
   )
 }
